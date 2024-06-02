@@ -27,7 +27,7 @@ server_socket = socket(AF_INET, SOCK_STREAM)
 server_socket.bind(server)
 server_socket.listen(5)
 
-print(f"Watch and listen on addres {server_address} with port {server_port}  ")
+print(f"Watch and listen on address {server_address} with port {server_port}")
 
 while True:
   client_socket, client_address = server_socket.accept()
